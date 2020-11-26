@@ -14,6 +14,7 @@ public class SingleTarget : Tower
 
     protected override void Attack()
     {
+        enemyHealth.TakeDamage();
         Debug.Log(_target);
     }
 }

@@ -23,6 +23,7 @@ public class MultiTarget : Tower
     {
         foreach (var enemy in _enemies)
         {
+            enemyHealth.TakeDamage();
             print("Attack this enemy: " + enemy.name);
         }
     }

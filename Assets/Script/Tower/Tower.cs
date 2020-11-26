@@ -6,6 +6,7 @@ public class Tower : MonoBehaviour
 {
     protected EnemyRange _rangeChecker;
     public float damage;
+    public HealthEnemy enemyHealth;
     private void Awake()
     {
         _rangeChecker = GetComponent<EnemyRange>();
